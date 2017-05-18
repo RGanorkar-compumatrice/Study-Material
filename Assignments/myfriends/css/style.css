@@ -1,0 +1,120 @@
+body {
+	font-family: Arial;
+	font-size:10px;
+	}
+	.loginTable {
+	background-color:#ddddee;
+	padding:5px;
+	}
+	.heading {
+	background-color:#7788aa;
+	}
+	#login {
+	margin:10% auto;
+	width:260px;
+	border:1px solid #333333;
+	
+	}
+	h2 {
+	margin:0px;
+	padding:2px;
+	background-color:#222266;
+	color:#ffffff;
+	}
+	
+	td {
+		padding:5px;
+	}
+	#loginBtn {
+	background-color:#222266;
+	color:#ffffff;
+	cursor:pointer;
+	}
+	
+	#SaveBtn {
+	background-color:#222266;
+	color:#ffffff;
+	cursor:pointer;
+	}
+	
+	
+	#header{ 
+	background-color:#222266;
+	color:#ffffff;
+	}
+
+	
+	#userinfo{ 
+	background-color:#222266;
+	color:#ffffff;
+	border:1px solid #000;
+	width:100px;
+	
+	}
+
+	
+	.linkBlocks {
+	margin:5px;
+	padding:5px;
+	background-color:#9999FF	;
+	width:200px;
+	height:60px;
+	text-align:center;
+	font-size:16px;
+	border:1px solid #999999;
+	cursor:pointer;
+	}
+	.linkBlocks:hover{
+	background-color:#6666FF;
+	border:1px solid #000000;
+	}
+	
+	.info {
+	font-size:10px;
+	color:#333333;
+	padding:5px;
+	}
+	
+	.bar {
+	background-color:#333399;
+	color:#ffffff;
+	font-size:20px;
+	padding:5px;
+	text-align:center;
+	}
+	
+	
+	#maindiv {
+		width:100%;
+		
+	}
+	
+	
+	#loginError {
+	background-color:#FFFF66;
+	color:#CC0000;
+	padding:5px 8px;
+	font-size:12px;
+	font-weight:bold;
+	display:none;
+	}
+	
+	
+	
+		.errorMsg {
+	background-color:#FFFF66;
+	color:#CC0000;
+	padding:5px 8px;
+	font-size:12px;
+	font-weight:bold;
+	display:none;
+	}
+	
+	#phpMessage {
+	background-color:#FFFF66;
+	color:#CC0000;
+	padding:5px 8px;
+	font-size:12px;
+	font-weight:bold;
+	display1:none;
+	}

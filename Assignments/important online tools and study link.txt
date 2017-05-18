@@ -1,0 +1,16 @@
+*AppsGeyser for making .apk file of any online application
+
+*online image crop 
+http://resizeimage.net/
+
+
+For make rest api and soap: https://trinitytuts.com/build-first-web-service-php/
+
+For making online mockups: https://moqups.com/ 
+(credential usaername: rahulganorkar, Password: mh27am0910)
+
+
+Mobile Automation Testing using two popular frameworks:-
+1) Appium ( cross platform)
+2) Calabash ( Uses Gherkin syntax ) . 
+

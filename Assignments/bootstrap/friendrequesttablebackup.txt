@@ -1,0 +1,16 @@
+ <div id="findfriendsbody">
+   <h2><i>Find Friends</i></h2>
+     <?php $result3=mysqli_query($con,"SELECT * FROM login where id!='".$uid."'");
+	 ?>
+	 
+	<table width="313px;" border="1px";>   
+	 	  <?php
+while($row=mysqli_fetch_array($result3))
+{
+?>
+  <tr><td class="col-sm-6" id="id"><p style="vertical-align:bottom;" class="<?php echo $row['name'];?>"><?php echo $row['name'];?></p> </td>
+  <td><button type="submit" id="SendFriendRequest" value="<?php echo $row['name'];?>" name="<?php echo $row['name'];?>">Send FriendRequest</button> </td>
+  </tr>
+	 <?php }?>
+	 </table>
+ </div>
